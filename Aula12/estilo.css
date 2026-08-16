@@ -1,0 +1,26 @@
+body{
+    background: rgb(218, 41, 41);
+    font: normal 15pt arial;
+}
+header{
+    color: rgb(253, 253, 253);
+    text-align: center;
+}
+section{
+    background: rgb(205, 207, 75);
+    border-radius: 10px;
+    padding: 20px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgb(80, 64, 64);
+}
+
+select#analis {
+    width: 150px;
+}
+
+footer{
+    color: black;
+    text-align: center;
+    font-style: italic;
+}
