@@ -21,21 +21,20 @@
     <!-- Seção principal com os elementos interativos -->
     <section>
         <!-- Div para entrada de dados -->
-        <div id="analise">
+        <div>
             <!-- Campo de entrada de número entre 1 e 100 -->
-            Número (Entre 1 e 100:) <input type="number" name="num" id="txtn">
+            Número (Entre 1 e 100): 
+            <input type="number" name="num" id="txtn">
             <!-- Botão que chama a função adicionar() ao ser clicado -->
             <input type="button" value="Adicionar" onclick="adicionar()">
-        </div>
-        <!-- Div para exibição dos resultados -->
-        <div id="resultado">
             <!-- Select (lista) que vai exibir os números adicionados -->
             <select name="Analisador" id="analis" size="10"></select>
-                <!-- Opção vazia padrão -->
-                <option> </option>
-                <!-- Botão que chama a função analisador() ao ser clicado -->
-                <input type="button" value="Finalizar" onclick="analisador()">
-        </select>
+            <!-- Botão que chama a função finalizar() para exibir o resumo. -->
+            <input type="button" value="Finalizar" onclick="finalizar()">
+        </div>
+        <!-- Div para exibição dos resultados -->
+        <div id="res">
+            <!-- Área reservada para os resultados da análise. -->
         </div>
     </section>
     <!-- Rodapé da página -->
